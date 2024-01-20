@@ -2,8 +2,9 @@
 
 Implementation of Task Management Application (epacken.com)
 
-- Frontend projetct: (ReactJs + Context API)
+- Frontend projetct: (ReactJs + Context API +)
 
+  - Frontend folder is react Javascript - Frontend-ts is react Typescript
   - To connect with Backed edit src/config/confic.js (BASE_URL = "http://yourserver:7000")
   - npm i
   - npm run start
