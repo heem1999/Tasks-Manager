@@ -64,7 +64,12 @@ const HomeScreen = () => {
   function Section({task}) {
     const isDarkMode = useColorScheme() === 'dark';
     return (
-      <View style={styles.sectionContainer}>
+      <View
+        style={
+          task.status == '1'
+            ? [styles.sectionContainer, {backgroundColor: 'green'}]
+            : [styles.sectionContainer, {backgroundColor: 'yellow'}]
+        }>
         <TouchableOpacity
           onPress={() => navigation.navigate('EditTask', {task})}>
           <Text
@@ -88,7 +93,7 @@ const HomeScreen = () => {
           <Button title="Logout" color="red" onPress={logout} />
           <Button
             title="Add New Task"
-            color="green"
+            color="blue"
             onPress={() => navigation.navigate('AddTask')}
           />
         </View>
