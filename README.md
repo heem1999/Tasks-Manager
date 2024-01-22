@@ -27,7 +27,7 @@ Implementation of Task Management Application (epacken.com)
 
 - React Native projetct: (Node.js/Express.js - MongoDB)
 
-- TaskProject-react-native-cli folder is React Native CLI - Javascript (Android - IOS)
-- To connect with Backend (use on of the above Backend projects (JS or TS) ) just edit React-Native/src/config/confic.js (BASE_URL = "http://your-backend-server:7000")
-- npm i
-- npm run start
+  - TaskProject-react-native-cli folder is React Native CLI - Javascript (Android - IOS)
+  - To connect with Backend (use on of the above Backend projects (JS or TS) ) just edit React-Native/src/config/confic.js (BASE_URL = "http://your-backend-server:7000")
+  - npm i
+  - npm run start
