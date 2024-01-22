@@ -18,7 +18,7 @@ Implementation of Task Management Application (epacken.com)
   - npm run start
   - More info. about the API's -> https://documenter.getpostman.com/view/5401908/2s9YsT5nxn
 
-  - React Native projetct: (Node.js/Express.js - MongoDB)
+- React Native projetct: (Node.js/Express.js - MongoDB)
 
   - React Native folder is React Native Expo - Javascript (Android - IOS)
   - To connect with Backend (use on of the above Backend projects (JS or TS) ) just edit React-Native/src/config/confic.js (BASE_URL = "http://your-backend-server:7000")
